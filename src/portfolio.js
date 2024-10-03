@@ -31,22 +31,10 @@ const greeting = {
 
 const socialMediaLinks = [
   {
-    name: "Github",
-    link: "https://github.com/imrul18",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/imrul-afnan/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "Gmail",
-    link: "mailto:imrul.afnan18@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    name: "Phone",
+    link: "tel:+8801677756337",
+    fontAwesomeIcon: "fas fa-phone", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Facebook",
@@ -55,11 +43,29 @@ const socialMediaLinks = [
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
-    name: "Instagram",
-    link: "https://www.instagram.com/imrulafnan/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/imrul-afnan/",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
+  {
+    name: "Github",
+    link: "https://github.com/imrul18",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "Gmail",
+    link: "mailto:imrul.afnan18@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/imrulafnan/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -122,7 +128,7 @@ const skills = {
     {
       title: "Backend Development",
       fileName: "DataScienceImg",
-      skills:  [
+      skills: [
         "⚡ Developing robust and scalable backend systems for web applications",
         "⚡ Implementing RESTful APIs and optimizing endpoints for efficient data exchange",
         "⚡ Designing and managing server architecture to ensure high performance and reliability",
@@ -149,19 +155,19 @@ const skills = {
             color: "#FF2D20",
           },
         },
-        { 
+        {
           skillName: "Codeigniter",
           fontAwesomeClassname: "simple-icons:codeigniter",
           style: {
             color: "#EE4323",
           },
-        }
+        },
       ],
     },
     {
       title: "Database And Server",
       fileName: "FullStackImg",
-      skills:  [
+      skills: [
         "⚡ Designing efficient database schemas and optimizing queries for performance",
         "⚡ Building and maintaining scalable server infrastructure to support application requirements",
         "⚡ Implementing security measures to protect sensitive data and prevent unauthorized access",
@@ -241,7 +247,8 @@ const competitiveSites = {
 };
 
 const degrees = {
-  details:"Discover my academic journey and qualifications, ranging from a Bachelor's degree in Computer Science Engineering to my foundational studies in Science during high school. Explore the courses I've taken, my achievements, and the institutions I've attended.",
+  details:
+    "Discover my academic journey and qualifications, ranging from a Bachelor's degree in Computer Science Engineering to my foundational studies in Science during high school. Explore the courses I've taken, my achievements, and the institutions I've attended.",
   degrees: [
     {
       title: "American International University, Bangladesh",
@@ -391,9 +398,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I specialize in backend development using Laravel, CodeIgniter, & PHP and in frontend, I am proficient in React, Vue & Blade. Additionally, I have experience in mobile app development with React Native and Kotlin, allowing me to create robust applications across various platforms. I also have experience with WordPress.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -401,14 +408,25 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Mobile App Developer",
+          company: "Weezly GmbH",
+          company_url: "https://viserx.com/",
+          logo_path: "weezly_logo.svg",
+          duration: "May 2024 - PRESENT",
+          location: "Leipzig, Germany",
+          description:
+            "I primarily work as a Kotlin Developer, specializing in building high-performance applications, particularly for Android platforms. In addition to Kotlin, I have hands-on experience with PHP-based frameworks like Laravel and CodeIgniter, where I contribute to building scalable and efficient backend solutions. On the frontend, I work with JavaScript-based frameworks such as React and Vue, and also use React Native for mobile app development. My diverse technical skill set allows me to handle both frontend and backend tasks, ensuring seamless integration across various platforms.",
+          color: "#0879bf",
+        },
+        {
           title: "Sr. Software Engineer & Assistant Lead",
           company: "VISER X Limited",
           company_url: "https://viserx.com/",
           logo_path: "viserx_logo.png",
-          duration: "March 2022 - PRESENT",
+          duration: "March 2022 - April 2024",
           location: "Uttara, Dhaka",
           description:
-            "As a Full Stack Developer and Assistant Lead at VISER X Limited, I lead frontend and backend development for client and product-based projects. Responsibilities include architecting robust solutions, mentoring junior developers, and ensuring high-quality deliverables. Actively contribute to project innovation and client satisfaction, leveraging expertise in both frontend and backend technologies.",
+            "I was a Full Stack Developer and Assistant Lead at VISER X Limited, where I led frontend and backend development for client and product-based projects. My responsibilities included architecting robust solutions, mentoring junior developers, and ensuring high-quality deliverables. I actively contributed to project innovation and client satisfaction, leveraging my expertise in both frontend and backend technologies, including React Native for mobile app development.",
           color: "#0879bf",
         },
       ],
@@ -422,43 +440,44 @@ const projectsHeader = {
   description:
     "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
-  projects: [{
-    "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-    "name": "masterPortfolio",
-    "createdAt": "2020-03-06T16:26:54Z",
-    "url": "https://github.com/ashutosh1919/masterPortfolio",
-    "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
-    "isFork": false,
-    "languages": [
-      {
-        "name": "HTML",
-        "iconifyClass": "logos-html-5"
-      },
-      {
-        "name": "CSS",
-        "iconifyClass": "logos-css-3"
-      },
-      {
-        "name": "JavaScript",
-        "iconifyClass": "logos-javascript"
-      },
-      {
-        "name": "Dockerfile",
-        "iconifyClass": "simple-icons:docker"
-      }
-    ]
-  },
-]
+  projects: [
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name: "masterPortfolio",
+      createdAt: "2020-03-06T16:26:54Z",
+      url: "https://github.com/ashutosh1919/masterPortfolio",
+      description:
+        "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      isFork: false,
+      languages: [
+        {
+          name: "HTML",
+          iconifyClass: "logos-html-5",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "logos-css-3",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Dockerfile",
+          iconifyClass: "simple-icons:docker",
+        },
+      ],
+    },
+  ],
 };
-
 
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    title: "Imrul Afnan",
+    profile_image_path: "animated_imrul.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with PHP and JS based frameworks like React, Vue, Laravel, Codeigniter and so on. Also in payment gateway integration and deployment of web applications.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with PHP and JS based frameworks like React, Vue, Laravel, Codeigniter and so on.",
   },
   blogSection: {
     title: "Blogs",
@@ -469,8 +488,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Sector-10, Uttara, Dhaka-1230, Bangladesh",
+    subtitle: "Sector-10, Uttara, Dhaka-1230, Bangladesh",
     locality: "Dhaka",
     country: "BD",
     region: "Dhaka",
@@ -496,6 +514,5 @@ export {
   seo,
   settings,
   skills,
-  socialMediaLinks
+  socialMediaLinks,
 };
-
