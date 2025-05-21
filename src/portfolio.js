@@ -1,3 +1,29 @@
+import project_1_1 from "./assests/images/projects/1/1.png";
+import project_1_2 from "./assests/images/projects/1/2.png";
+import project_2_1 from "./assests/images/projects/2/1.png";
+import project_3_1 from "./assests/images/projects/3/1.png";
+import project_3_2 from "./assests/images/projects/3/2.png";
+import project_3_3 from "./assests/images/projects/3/3.png";
+import project_4_1 from "./assests/images/projects/4/1.png";
+import project_4_2 from "./assests/images/projects/4/2.png";
+import project_4_3 from "./assests/images/projects/4/3.png";
+import project_5_1 from "./assests/images/projects/5/1.png";
+import project_5_2 from "./assests/images/projects/5/2.png";
+import project_5_3 from "./assests/images/projects/5/3.png";
+import project_6_1 from "./assests/images/projects/6/1.png";
+import project_6_2 from "./assests/images/projects/6/2.png";
+import project_6_3 from "./assests/images/projects/6/3.png";
+import project_6_4 from "./assests/images/projects/6/4.png";
+import project_7_1 from "./assests/images/projects/7/1.png";
+import project_7_2 from "./assests/images/projects/7/2.png";
+import project_7_3 from "./assests/images/projects/7/3.png";
+import project_7_4 from "./assests/images/projects/7/4.png";
+import project_8_1 from "./assests/images/projects/8/1.png";
+import project_8_2 from "./assests/images/projects/8/2.png";
+import project_8_3 from "./assests/images/projects/8/3.png";
+import project_8_4 from "./assests/images/projects/8/4.png";
+import project_9_1 from "./assests/images/projects/9/1.png";
+
 /* Change this file to get your personal Porfolio */
 
 // Website related settings
@@ -9,7 +35,7 @@ const settings = {
 const seo = {
   title: "Imrul Afnan",
   description:
-    "Interested In The Role Of A Computer Engineer Where I Can Contribute My Analytical Skills And Knowledge Acquired By Pursuing My Degree In Computer Engineering. Looking For A Progressive Company Where My Skills Are Utilized In The Maximum Way.",
+    "A Computer Engineering graduate with strong analytical skills and technical knowledge, seeking to contribute effectively in a progressive organization that values innovation and professional growth.",
   og: {
     title: "Imrul Afnan",
     type: "website",
@@ -19,11 +45,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Md. Imrul Afnan",
+  title: "Md. Imrul Hosen",
   logo_name: "Afnan",
-  nickname: "Troy",
-  subTitle:
-    "Interested In The Role Of A Computer Engineer Where I Can Contribute My Analytical Skills And Knowledge Acquired By Pursuing My Degree In Computer Engineering. Looking For A Progressive Company Where My Skills Are Utilized In The Maximum Way.",
+  nickname: "Afnan",
+  subTitle: "Driven by code, committed to creating impactful solutions.",
   resumeLink: "https://imrul18.github.io/file/cv.pdf",
   portfolio_repository: "https://github.com/imrul18",
   githubProfile: "https://github.com/imrul18",
@@ -71,42 +96,39 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Frontend Development",
-      fileName: "DesignImg",
+      title: "Mobile App Development (React Native & Expo)",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Building responsive and dynamic user interfaces for web applications using HTML, CSS, and JavaScript",
-        "⚡ Implementing efficient and scalable frontend architectures and design patterns",
-        "⚡ Integrating APIs and managing state using frontend frameworks such as React.js or Vue.js",
-        "⚡ Optimizing website performance and loading times through code and asset optimization techniques",
-        "⚡ Debugging and troubleshooting frontend issues across different browsers and devices",
+        "🎯 Cross-platform Mobile App Development",
+        "🎯 Firebase Authentication & Firestore Integration",
+        "🎯 Push Notifications & Background Services",
+        "🎯 Google Maps, Geolocation, & Navigation",
+        "🎯 Offline Storage using AsyncStorage / SQLite",
+        "🎯 Audio Recording, File Uploads, Image Picker",
+        "🎯 Deep Linking, Linking with External Apps (Waze, Uber, Google Maps)",
+        "🎯 In-app Updates and Splash Screens",
+        "🎯 Backend Integration (Laravel APIs, Firebase)",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "React Native",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#E34F26",
+            color: "#61DAFB",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Expo",
+          fontAwesomeClassname: "simple-icons:expo",
           style: {
-            color: "#1572B6",
+            color: "#000020",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
           style: {
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
+            color: "#FFCA28",
           },
         },
         {
@@ -117,37 +139,38 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "SQLite",
+          fontAwesomeClassname: "simple-icons:sqlite",
           style: {
-            color: "#61DAFB",
+            color: "#003B57",
+          },
+        },
+        {
+          skillName: "Google Maps",
+          fontAwesomeClassname: "simple-icons:googlemaps",
+          style: {
+            color: "#4285F4",
           },
         },
       ],
     },
     {
-      title: "Backend Development",
-      fileName: "DataScienceImg",
+      title: "Web Application Development",
+      fileName: "FullStackImg",
       skills: [
-        "⚡ Developing robust and scalable backend systems for web applications",
-        "⚡ Implementing RESTful APIs and optimizing endpoints for efficient data exchange",
-        "⚡ Designing and managing server architecture to ensure high performance and reliability",
+        "🎯 Custom Laravel Web Applications (Admin Panels, Dashboards, CRMs)",
+        "🎯 RESTful API Development & Integration",
+        "🎯 Vue.js/React-based Single Page Applications (SPA)",
+        "🎯 Jetstream, Inertia.js, Livewire integration",
+        "🎯 Secure Authentication (JWT, Sanctum, Social Logins)",
+        "🎯 Database Design, Query Optimization, and Migrations",
+        "🎯 Stripe/PayPal Payment Gateway Integration",
+        "🎯 Real-time Notification with Pusher, Laravel Echo & Reverb",
+        "🎯 Role-based Access & Permissions",
+        "🎯 Laravel Queues & Scheduled Jobs",
+        "🎯 Custom CMS, ERP, and SaaS development",
       ],
       softwareSkills: [
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#777BB4",
-          },
-        },
         {
           skillName: "Laravel",
           fontAwesomeClassname: "simple-icons:laravel",
@@ -156,23 +179,19 @@ const skills = {
           },
         },
         {
-          skillName: "Codeigniter",
-          fontAwesomeClassname: "simple-icons:codeigniter",
+          skillName: "Vue.js",
+          fontAwesomeClassname: "simple-icons:vuedotjs",
           style: {
-            color: "#EE4323",
+            color: "#42B883",
           },
         },
-      ],
-    },
-    {
-      title: "Database And Server",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Designing efficient database schemas and optimizing queries for performance",
-        "⚡ Building and maintaining scalable server infrastructure to support application requirements",
-        "⚡ Implementing security measures to protect sensitive data and prevent unauthorized access",
-      ],
-      softwareSkills: [
+        {
+          skillName: "React.js",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -181,10 +200,176 @@ const skills = {
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "Stripe",
+          fontAwesomeClassname: "simple-icons:stripe",
           style: {
-            color: "#1488C6",
+            color: "#635BFF",
+          },
+        },
+        {
+          skillName: "PayPal",
+          fontAwesomeClassname: "simple-icons:paypal",
+          style: {
+            color: "#003087",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#F05032",
+          },
+        },
+      ],
+    },
+    {
+      title: "Frontend Development",
+      fileName: "DesignImg",
+      skills: [
+        "🎯 Responsive UI with Tailwind CSS / Bootstrap",
+        "🎯 Dynamic Components using React/Vue",
+        "🎯 Redux / Vuex for State Management",
+        "🎯 Clean UX/UI with Mobile-first Approach",
+        "🎯 Code Splitting and Lazy Loading for Optimization",
+        "🎯 Integration with external APIs",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: {
+            color: "#38B2AC",
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#7952B3",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
+          style: {
+            color: "#764ABC",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+      ],
+    },
+    {
+      title: "DevOps & Tools",
+      fileName: "CloudInfraImg",
+      skills: [
+        "🎯 Git & GitHub/GitLab/Bitbucket Workflow",
+        "🎯 CI/CD Integration",
+        "🎯 VS Code, Android Studio, Xcode",
+        "🎯 Laravel Valet and Forge",
+        "🎯 Postman, Figma",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#F05032",
+          },
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "#181717",
+          },
+        },
+        {
+          skillName: "GitLab",
+          fontAwesomeClassname: "simple-icons:gitlab",
+          style: {
+            color: "#FC6D26",
+          },
+        },
+        {
+          skillName: "CI/CD",
+          fontAwesomeClassname: "simple-icons:githubactions", // Placeholder for CI/CD tools
+          style: {
+            color: "#2088FF",
+          },
+        },
+        {
+          skillName: "VS Code",
+          fontAwesomeClassname: "simple-icons:visualstudiocode",
+          style: {
+            color: "#007ACC",
+          },
+        },
+        {
+          skillName: "Android Studio",
+          fontAwesomeClassname: "simple-icons:androidstudio",
+          style: {
+            color: "#3DDC84",
+          },
+        },
+        {
+          skillName: "Xcode",
+          fontAwesomeClassname: "simple-icons:xcode",
+          style: {
+            color: "#147EFB",
+          },
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
+          style: {
+            color: "#FF6C37",
+          },
+        },
+      ],
+    },
+
+    {
+      title: "Other Highlights",
+      fileName: "FullStackImg",
+      skills: [
+        "🎯 Admin Panels with Charts, Filters, and Reports",
+        "🎯 OTP & Email Verification",
+        "🎯 Secure Login, Rate Limiting & Data Validation",
+        "🎯 Integration with third-party APIs (Stripe, Twilio, Zoom, Mailchimp, etc.)",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Chart.js",
+          fontAwesomeClassname: "simple-icons:chartdotjs",
+          style: {
+            color: "#FF6384",
+          },
+        },
+        {
+          skillName: "Stripe",
+          fontAwesomeClassname: "simple-icons:stripe",
+          style: {
+            color: "#635BFF",
+          },
+        },
+        {
+          skillName: "Twilio",
+          fontAwesomeClassname: "simple-icons:twilio",
+          style: {
+            color: "#F22F46",
           },
         },
       ],
@@ -400,7 +585,7 @@ const experience = {
   title: "Experience",
   subtitle: "",
   description:
-    "I specialize in backend development using Laravel, CodeIgniter, & PHP and in frontend, I am proficient in React, Vue & Blade. Additionally, I have experience in mobile app development with React Native and Kotlin, allowing me to create robust applications across various platforms. I also have experience with WordPress.",
+    "I specialize in mobile app development using React Native, creating efficient cross-platform applications. I also have backend experience with Laravel, CodeIgniter, and PHP, and frontend skills in React, Vue, and Blade. Additionally, I’m familiar with Kotlin for native Android development and have worked with WordPress.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -442,31 +627,411 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
   projects: [
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "masterPortfolio",
-      createdAt: "2020-03-06T16:26:54Z",
-      url: "https://github.com/ashutosh1919/masterPortfolio",
-      description:
-        "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
-      isFork: false,
+      id: "project_1",
+      name: "Courtesy - Order management with Live driver location",
+      avatar: project_1_1,
+      images: [{ imageName: project_1_1 }, { imageName: project_1_2 }],
       languages: [
         {
-          name: "HTML",
-          iconifyClass: "logos-html-5",
+          name: "Laravel",
+          iconifyClass: "logos:laravel",
         },
         {
-          name: "CSS",
-          iconifyClass: "logos-css-3",
+          name: "MySQL",
+          iconifyClass: "logos:mysql",
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "Vue.js",
+          iconifyClass: "logos:vue",
         },
         {
-          name: "Dockerfile",
-          iconifyClass: "simple-icons:docker",
+          name: "React Native",
+          iconifyClass: "logos:react",
         },
       ],
+      description: `<div>
+        <div style="margin-bottom: 25px;">
+          <p>
+            Developed a delivery application designed to manage project-based orders, integrating a robust backend
+            with a user-friendly frontend and a dedicated mobile app for drivers.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <h3 style="font-size: 20px;">Technologies Used:</h3>
+          <ul style="list-style-type: none; padding: 0;">
+            <li style="margin-bottom: 5px;"><strong>Backend:</strong> Laravel, PHP, MySQL</li>
+            <li style="margin-bottom: 5px;"><strong>Frontend:</strong> Vue</li>
+            <li style="margin-bottom: 5px;"><strong>Mobile App:</strong> React Native, Redux</li>
+            <li style="margin-bottom: 5px;"><strong>DevOps:</strong> DigitalOcean</li>
+          </ul>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p>
+            This project demonstrates my expertise in full-stack development for mobile and web applications,
+            utilizing React Native, Laravel, and Vue.js to build efficient and scalable solutions.
+          </p>
+        </div>
+      </div>`,
+    },
+    {
+      id: "project_2",
+      name: "Aqua Life – Gamified Hydration Tracker App with Health Analytics",
+      avatar: project_2_1,
+      images: [{ imageName: project_2_1 }],
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "devicon:kotlin",
+        },
+      ],
+      description: `<div>
+        <div style="margin-bottom: 25px;">
+          <p>
+            Developed <strong>Aqua Life</strong>, a wellness app that sets personalized daily water goals based on user data 
+            (gender, weight, height). Users log drinks visually via a body-fill interface and earn trophies for progress.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <h3 style="font-size: 20px;">Key Features:</h3>
+          <ul style="list-style-type: none; padding: 0;">
+            <li style="margin-bottom: 5px;">• Smart goal calculation</li>
+            <li style="margin-bottom: 5px;">• Animated body water-level tracker</li>
+            <li style="margin-bottom: 5px;">• Drink type selector (water, tea, juice, etc.)</li>
+            <li style="margin-bottom: 5px;">• Visual progress & stats (charts, rings)</li>
+            <li style="margin-bottom: 5px;">• Gamification with points/trophies</li>
+            <li style="margin-bottom: 5px;">• Multilingual (German)</li>
+            <li style="margin-bottom: 5px;">• Mobile-friendly UX with smooth onboarding</li>
+          </ul>
+        </div>
+      </div>`,
+    },
+    {
+      id: "project_3",
+      name:
+        "Visual Discovery – Investor Startup Platform with Video Portfolio Tool",
+      avatar: project_3_1,
+      images: [
+        { imageName: project_3_1 },
+        { imageName: project_3_2 },
+        { imageName: project_3_3 },
+      ],
+      languages: [
+        {
+          name: "Laravel",
+          iconifyClass: "logos:laravel",
+        },
+        {
+          name: "Vue.js",
+          iconifyClass: "logos:vue",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos:mysql",
+        },
+      ],
+      description: `<div>
+        <div style="margin-bottom: 25px;">
+          <p>
+            Designed and developed a multi-role SaaS platform connecting startup founders with investors.
+            Key roles include Admin, Investor, and Founder.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <h3 style="font-size: 20px;">Key Features:</h3>
+          <ul style="list-style-type: none; padding: 0;">
+            <li style="margin-bottom: 5px;">• Investor profile setup with thesis, cheque size, preferences</li>
+            <li style="margin-bottom: 5px;">• Portfolio upload (local & URL) – video support up to 512MB</li>
+            <li style="margin-bottom: 5px;">• Admin dashboard with user, document, and credential management</li>
+            <li style="margin-bottom: 5px;">• YouTube OAuth token integration</li>
+            <li style="margin-bottom: 5px;">• Founder document submission and profile enrichment</li>
+            <li style="margin-bottom: 5px;">• Role-based dashboard views with secure access</li>
+          </ul>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p>
+            Enables seamless discovery and engagement between founders and investors.
+          </p>
+        </div>
+      </div>`,
+    },
+    {
+      id: "project_4",
+      name: "ProKPI – Smart KPI Management System for Enterprises",
+      avatar: project_4_1,
+      images: [
+        { imageName: project_4_1 },
+        { imageName: project_4_2 },
+        { imageName: project_4_3 },
+      ],
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos:laravel",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos:stripe",
+        },
+      ],
+      description: `<div>
+        <div style="margin-bottom: 25px;">
+          <p>
+            ProKPI is a modern KPI tracking module built for enterprises to streamline goal setting, approvals, and employee evaluations.
+            It features a clean dashboard, multi-level approval flows, department-based insights, and performance summaries.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <h3 style="font-size: 20px;">Key Features:</h3>
+          <ul style="list-style-type: none; padding: 0;">
+            <li style="margin-bottom: 5px;">- Personalized KPI dashboard</li>
+            <li style="margin-bottom: 5px;">- Goal setup with evaluation metrics</li>
+            <li style="margin-bottom: 5px;">- Multi-level approval workflow</li>
+            <li style="margin-bottom: 5px;">- Department & division insights</li>
+            <li style="margin-bottom: 5px;">- Top performer highlights</li>
+            <li style="margin-bottom: 5px;">- Real-time KPI window tracking</li>
+            <li style="margin-bottom: 5px;">- Role-based access control</li>
+          </ul>
+        </div>
+      </div>`,
+    },
+    {
+      id: "project_5",
+      name: "Uplify – AI-Powered Business Growth Platform for Entrepreneurs",
+      avatar: project_5_1,
+      images: [
+        { imageName: project_5_1 },
+        { imageName: project_5_2 },
+        { imageName: project_5_3 },
+      ],
+      languages: [
+        {
+          name: "Laravel",
+          iconifyClass: "logos:laravel",
+        },
+        {
+          name: "Vue.js",
+          iconifyClass: "logos:vue",
+        },
+        {
+          name: "Claude AI",
+          iconifyClass: "simple-icons:anthropic",
+        },
+      ],
+      description: `<div>
+        <div style="margin-bottom: 25px;">
+          <p>
+            Built an interactive coaching platform to guide entrepreneurs through mindset, systems, and marketing mastery.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <h3 style="font-size: 20px;">Key Features:</h3>
+          <ul style="list-style-type: none; padding: 0;">
+            <li style="margin-bottom: 5px;">• Interactive milestone-based learning paths</li>
+            <li style="margin-bottom: 5px;">• Habit tracking dashboard</li>
+            <li style="margin-bottom: 5px;">• Personalized AI agents (e.g., “Lina”)</li>
+            <li style="margin-bottom: 5px;">• Topic-specific paths: Mindset, Finance, Legal, Hiring, Sales</li>
+            <li style="margin-bottom: 5px;">• Smart assessments & progress tracking</li>
+            <li style="margin-bottom: 5px;">• Seamless UI/UX for daily lesson flows</li>
+          </ul>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p>
+            Enabled small business owners to transform goals into profitable systems.
+          </p>
+        </div>
+      </div>`,
+    },
+    {
+      id: "project_6",
+      name: "Radi8 - Wellness Coaching Web App with Scheduling & Chat",
+      avatar: project_6_1,
+      images: [
+        { imageName: project_6_1 },
+        { imageName: project_6_2 },
+        { imageName: project_6_3 },
+        { imageName: project_6_4 },
+      ],
+      languages: [
+        {
+          name: "Laravel",
+          iconifyClass: "logos:laravel",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos:stripe",
+        },
+      ],
+      description: `<div>
+        <div style="margin-bottom: 25px;">
+          <p>
+            Built a complete wellness coaching web app where users can discover, book, and chat with expert coaches.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <h3 style="font-size: 20px;">Key Features:</h3>
+          <ul style="list-style-type: none; padding: 0;">
+            <li style="margin-bottom: 5px;">• Coach search by category</li>
+            <li style="margin-bottom: 5px;">• Appointment scheduling with calendar view</li>
+            <li style="margin-bottom: 5px;">• Reschedule & cancel options</li>
+            <li style="margin-bottom: 5px;">• Integrated chat system</li>
+            <li style="margin-bottom: 5px;">• Real-time status tracking (Pending, Scheduled, Paid)</li>
+            <li style="margin-bottom: 5px;">• Coach onboarding & verification</li>
+            <li style="margin-bottom: 5px;">• Secure payment system</li>
+            <li style="margin-bottom: 5px;">• Responsive UI for dashboard, coaches & chats</li>
+          </ul>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p>
+            Empowered seamless wellness journeys through expert access.
+          </p>
+        </div>
+      </div>`,
+    },
+    {
+      id: "project_7",
+      name: "Boutikio - Reward Loyalty program with apple and google wallet",
+      avatar: project_7_1,
+      images: [
+        { imageName: project_7_1 },
+        { imageName: project_7_2 },
+        { imageName: project_7_3 },
+        { imageName: project_7_4 },
+      ],
+      languages: [
+        {
+          name: "Laravel",
+          iconifyClass: "logos:laravel",
+        },
+        {
+          name: "Apple Wallet",
+          iconifyClass: "logos:apple",
+        },
+        {
+          name: "Google Wallet",
+          iconifyClass: "logos:google-wallet",
+        },
+      ],
+      description: `<div>
+        <div style="margin-bottom: 25px;">
+          <p>
+            Transform customer engagement strategy with Reward Loyalty. This system allows you to create and manage digital savings cards with ease.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p>
+            Gain complete control over your user base through an intuitive, beautiful interface by using Apple and Google Wallet.
+          </p>
+        </div>
+      </div>`,
+    },
+    {
+      id: "project_8",
+      name: "IAATO - Options Trading Mentorship Web & Mobile Platform",
+      avatar: project_8_1,
+      images: [
+        { imageName: project_8_1 },
+        { imageName: project_8_2 },
+        { imageName: project_8_3 },
+        { imageName: project_8_4 },
+      ],
+      languages: [
+        {
+          name: "Laravel",
+          iconifyClass: "logos:laravel",
+        },
+        {
+          name: "React Native",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "PayPal",
+          iconifyClass: "logos:paypal",
+        },
+        {
+          name: "Google Auth",
+          iconifyClass: "logos:google",
+        },
+        {
+          name: "Facebook Auth",
+          iconifyClass: "logos:facebook",
+        },
+      ],
+      description: `<div>
+        <div style="margin-bottom: 25px;">
+          <p>
+            Built a cross-platform web and mobile app for an Options Trading Mentorship program serving 4,000+ users. 
+            Features include real-time alerts, subscription billing, chat groups, content access, and user dashboards.
+            Integrated with Stripe, PayPal, and WhatsApp for seamless payments and support.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <h3 style="font-size: 20px;">Key Features:</h3>
+          <ul style="list-style-type: none; padding: 0;">
+            <li style="margin-bottom: 5px;">• Web & mobile responsive interface</li>
+            <li style="margin-bottom: 5px;">• Real-time trade alerts & chat rooms</li>
+            <li style="margin-bottom: 5px;">• Login via social & email auth</li>
+            <li style="margin-bottom: 5px;">• Subscription billing (Stripe, PayPal)</li>
+            <li style="margin-bottom: 5px;">• Course & market data access</li>
+            <li style="margin-bottom: 5px;">• 7-day trial & plan management</li>
+            <li style="margin-bottom: 5px;">• Admin & user dashboards</li>
+          </ul>
+        </div>
+      </div>`,
+    },
+    {
+      id: "project_9",
+      name: "E-Sign - E-Signature Solution for Secure Document Signing",
+      avatar: project_9_1,
+      images: [{ imageName: project_9_1 }],
+      languages: [
+        {
+          name: "Laravel",
+          iconifyClass: "logos:laravel",
+        },
+        {
+          name: "Blade",
+          iconifyClass: "logos:laravel-icon", // Blade shares Laravel icon
+        },
+      ],
+      description: `<div>
+        <div style="margin-bottom: 25px;">
+          <p>
+            Developed a robust and user-friendly E-signature platform for secure document signing. The application streamlines the signing process for businesses and individuals, ensuring security and legal compliance.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <h3 style="font-size: 20px;">Key Features:</h3>
+          <ul style="list-style-type: none; padding: 0;">
+            <li style="margin-bottom: 5px;">• Secure digital signatures with user authentication.</li>
+            <li style="margin-bottom: 5px;">• Intuitive interface for uploading and managing documents.</li>
+            <li style="margin-bottom: 5px;">• Integration with Vue.js 3 for dynamic and responsive UI.</li>
+            <li style="margin-bottom: 5px;">• Backend developed using Laravel 11 for seamless processing.</li>
+            <li style="margin-bottom: 5px;">• Full compliance with industry-standard e-signature protocols.</li>
+            <li style="margin-bottom: 5px;">• Hosted on a reliable LAMP stack for optimal performance and scalability.</li>
+          </ul>
+        </div>
+      </div>`,
     },
   ],
 };
@@ -477,7 +1042,7 @@ const contactPageData = {
     title: "Imrul Afnan",
     profile_image_path: "animated_imrul.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with PHP and JS based frameworks like React, Vue, Laravel, Codeigniter and so on.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with PHP and JS based frameworks like React Native, React, Vue, Laravel, Codeigniter and so on.",
   },
   blogSection: {
     title: "Blogs",

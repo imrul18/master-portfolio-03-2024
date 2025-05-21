@@ -8,6 +8,8 @@ import "./Header.css";
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.backgroundColor = color;
+  el.style.transition = "0.5s";
+  el.style.borderRadius = "10px";
 };
 
 const onMouseOut = (event) => {
